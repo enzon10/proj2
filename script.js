@@ -5,9 +5,8 @@ avanca.forEach(button=> {
     const atual = document.querySelector ('.ativo');
     const proximoPasso = 'passo-' this.getAttribute('data-proximo')
 
-    atual.classList.remove('ativo');
-    document.getElementByID (proximoPasso). classList.add('ativo')
-
+      atual.classList.remove('ativo');
+      document.getElementByID (proximoPasso). classList.add('ativo')
     })
 })
 
